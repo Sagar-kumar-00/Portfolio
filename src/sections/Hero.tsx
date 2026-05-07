@@ -65,7 +65,7 @@ const Hero = () => (
             <div className="absolute -inset-4 bg-primary/10 rounded-3xl blur-2xl" />
             <div className="relative rounded-2xl overflow-hidden border border-border">
               <img
-                src="/new-profile.jpg"
+                src="/Portfolio/new-profile.jpg"
                 alt="Sagar Kumar"
                 className="w-full aspect-[4/5] object-cover"
               />
@@ -80,11 +80,11 @@ const Hero = () => (
       {/* Marquee */}
       <div className="mt-20 animate-fade-up animation-delay-600">
         <div className="divider mb-8" />
-        <p className="label text-center mb-6">Technologies I work with</p>
+        <p className="label text-center mb-6">TECH STACK</p>
         <div className="relative overflow-hidden">
           <div className="flex animate-marquee">
             {[...skills, ...skills, ...skills].map((skill, i) => (
-              <span key={i} className="px-8 py-2 shrink-0 text-muted-foreground/40 text-sm font-medium tracking-wide hover:text-muted-foreground transition-colors">
+              <span key={i} className="px-8 py-2 shrink-0 text-muted-foreground/70 text-sm font-semibold tracking-wide hover:text-muted-foreground transition-colors cursor-default">
                 {skill}
               </span>
             ))}

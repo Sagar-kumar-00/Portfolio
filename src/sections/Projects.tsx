@@ -44,14 +44,14 @@ const Projects = () => (
               Recent <span className="text-primary italic">Projects</span>
             </h2>
           </div>
-          <a
+          {/* <a
             href="https://github.com/sagar-go?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
           >
             All projects <ArrowUpRight className="w-4 h-4" />
-          </a>
+          </a> */}
         </div>
 
         <div className="grid md:grid-cols-2 gap-6">
