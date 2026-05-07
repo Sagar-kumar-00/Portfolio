@@ -20,10 +20,10 @@ const About = () => (
           </h2>
           <div className="space-y-4 text-muted-foreground leading-relaxed animate-fade-up animation-delay-200">
             <p>
-              I'm a frontend developer passionate about creating clean, responsive, and interactive web experiences. My journey started with curiosity about how modern websites work, which quickly turned into a drive to build things from scratch.
+              I'm a Senior Software Engineer at Agiliad Technologies with experience in developing interactive web applications, UI component libraries, and documentation portals. My expertise lies in creating scalable, responsive solutions using React.js, Next.js, and TypeScript.
             </p>
             <p>
-              I work mainly with React, Next.js, TypeScript, and Tailwind CSS — building modern UIs, responsive landing pages, and dynamic web applications. I focus on performance, usability, and clean component structure.
+              I've successfully built healthcare platforms, EdTech solutions, and advanced medical simulators. I focus on delivering high-quality code, implementing CI/CD pipelines, and ensuring optimal performance across all devices. I'm passionate about creating intuitive user experiences and leveraging modern web technologies to solve complex problems.
             </p>
           </div>
         </div>

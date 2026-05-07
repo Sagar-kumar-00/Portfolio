@@ -27,7 +27,7 @@ const Navbar = () => {
     >
       <nav className="container mx-auto px-6 flex items-center justify-between py-5">
         <a href="#" className="font-serif text-xl text-foreground">
-          P<span className="text-primary">K</span>
+          S<span className="text-primary">K</span>
         </a>
         <div className="hidden md:flex items-center gap-1">
           {navLinks.map((link, i) => (
@@ -46,10 +46,7 @@ const Navbar = () => {
           ))}
         </div>
         <a
-          href="#contact"
-          className="text-sm px-5 py-2 rounded-full border border-border text-foreground hover:border-primary hover:text-primary transition-colors"
         >
-          Hire me
         </a>
       </nav>
     </header>

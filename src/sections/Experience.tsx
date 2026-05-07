@@ -1,34 +1,18 @@
 const experiences = [
   {
-    period: "2026 — Present",
-    role: "Freelance Frontend Developer",
-    company: "Self-Employed",
-    description: "Building responsive web applications and implementing frontend solutions using React, Next.js, TypeScript, and Tailwind CSS.",
-    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+    period: "07/2023 — Present",
+    role: "Sr. Software Engineer",
+    company: "Agiliad Technologies Pvt Ltd, Pune",
+    description: "Developed interactive web-based documentation portal and versatile UI component library using React.js. Utilized Jenkins and GitHub Actions for CI/CD automation. Provided extensive documentation using React Storybook, enhancing user adoption and engagement.",
+    technologies: ["React.js", "TypeScript", "Jenkins", "GitHub Actions", "React Storybook"],
     current: true,
   },
   {
-    period: "2026 — Ongoing",
-    role: "Personal Projects",
-    company: "Self-Driven Development",
-    description: "Developing projects to strengthen frontend skills, explore modern frameworks, and solve real coding challenges.",
-    technologies: ["React", "Next.js", "Three.js", "TypeScript", "Tailwind CSS"],
-    current: true,
-  },
-  {
-    period: "2025",
-    role: "Catch-Up Squad Member (Volunteer)",
-    company: "ALX Africa",
-    description: "Supported learners by answering technical questions, assisting with debugging, and sharing resources.",
-    technologies: ["HTML", "CSS", "JavaScript", "React"],
-    current: false,
-  },
-  {
-    period: "2025 — 2026",
-    role: "Frontend Software Engineering Trainee",
-    company: "ALX Africa",
-    description: "Completed a project-based frontend program based on the Holberton School curriculum, building responsive web applications.",
-    technologies: ["HTML", "CSS", "JavaScript", "React", "TypeScript"],
+    period: "06/2022 — 06/2023",
+    role: "React Js Developer",
+    company: "InStep Technologies Pvt Ltd, Punjab",
+    description: "Developed 2 healthcare platforms using React.js, integrating Stripe for payments. Integrated RESTful APIs for real-time updates and seamless user experiences. Led the migration from Create React App to Vite, optimizing build speed.",
+    technologies: ["React.js", "Bootstrap", "RESTful APIs", "Stripe", "Vite"],
     current: false,
   },
 ];
@@ -40,8 +24,8 @@ const Experience = () => (
       <div className="max-w-4xl mx-auto">
         <p className="label mb-4 animate-fade-up">Career journey</p>
         <h2 className="font-serif text-5xl md:text-6xl mb-16 animate-fade-up animation-delay-100">
-          From Beginner<br />
-          <span className="text-primary italic">to Builder</span>
+          Professional<br />
+          <span className="text-primary italic">Experience</span>
         </h2>
 
         <div className="relative">

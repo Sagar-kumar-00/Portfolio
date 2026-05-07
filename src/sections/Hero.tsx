@@ -1,12 +1,11 @@
-import { ArrowRight, ChevronDown, Github, Linkedin, Twitter } from "lucide-react";
+import { ArrowRight, ChevronDown, Github, Linkedin } from "lucide-react";
 import Button from "../conponents/Button";
 
-const skills = ["React", "Next.js", "TypeScript", "Tailwind CSS", "Shadcn UI", "Node.js", "Zustand", "Figma", "Vite", "REST APIs"];
+const skills = ["HTML/CSS", "JavaScript", "React Js", "Next Js", "TypeScript", "Redux", "Git", "Unit Testing", "E2E Testing", "GitHub Actions"];
 
 const socials = [
-  { icon: Github, href: "https://www.github.com/kateykwesi", label: "GitHub" },
-  { icon: Linkedin, href: "https://www.linkedin.com/in/philipkatey/", label: "LinkedIn" },
-  { icon: Twitter, href: "https://x.com/kateykwesi", label: "Twitter" },
+  { icon: Github, href: "https://github.com/sagar-go", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/sagar-kumar-87475421b/", label: "LinkedIn" },
 ];
 
 const Hero = () => (
@@ -23,13 +22,13 @@ const Hero = () => (
       <div className="grid lg:grid-cols-2 gap-16 items-center">
         {/* Left */}
         <div className="space-y-8">
-          <p className="label animate-fade-up">Available for work &mdash; Accra, Ghana</p>
+          <p className="label animate-fade-up">Agiliad Technologies &mdash; Pune</p>
           <h1 className="font-serif text-6xl md:text-7xl lg:text-8xl leading-[0.95] animate-fade-up animation-delay-100">
             Frontend<br />
             <span className="text-primary italic">Developer</span>
           </h1>
           <p className="text-muted-foreground text-lg max-w-md leading-relaxed animate-fade-up animation-delay-200">
-            I'm Philip Katey — I build modern, responsive web interfaces with React, Next.js, and TypeScript.
+            I'm Sagar Kumar — Front-end Developer specializing in React.js and Next.js, building scalable web applications with modern technologies.
           </p>
           <div className="flex flex-wrap gap-4 animate-fade-up animation-delay-300">
             <a href="#contact">
@@ -49,6 +48,8 @@ const Hero = () => (
               <a
                 key={s.label}
                 href={s.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label={s.label}
                 className="p-2.5 rounded-full border border-border text-muted-foreground hover:text-primary hover:border-primary transition-colors"
               >
@@ -65,13 +66,13 @@ const Hero = () => (
             <div className="relative rounded-2xl overflow-hidden border border-border">
               <img
                 src="/new-profile.jpg"
-                alt="Philip Katey"
+                alt="Sagar Kumar"
                 className="w-full aspect-[4/5] object-cover"
               />
             </div>
-            <div className="absolute -bottom-4 -right-4 bg-card border border-border rounded-xl px-4 py-3 animate-float">
+            {/* <div className="absolute -bottom-4 -right-4 bg-card border border-border rounded-xl px-4 py-3 animate-float">
               <span className="text-xs text-primary font-medium">Available for work</span>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

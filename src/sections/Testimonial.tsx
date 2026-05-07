@@ -3,16 +3,19 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "Katey made an incredible impact as a Catch-Up Squad member. He shared resources, answered technical questions, and created a supportive environment that helped his peers succeed. His leadership, collaboration, and technical insight were exemplary.",
-    author: "Irene Aragona",
-    role: "Program and Community Specialist, ALX Software Engineering",
-    avatar: "/irene.jpg",
+    quote: "Sagar is one of those developers who truly gets it. He writes clean code, asks the right questions, and always thinks about the bigger picture. What I appreciate most is his balance between moving fast and maintaining quality. He's reliable, collaborative, and brings positive energy to every project. He is truely a team player.",
+    author: "Sharad Karimungi",
+    role: "Tech Lead, Agiliad Technologies",
   },
   {
-    quote: "Katey consistently demonstrates technical excellence and a strong learning mindset. He builds projects with attention to detail and takes initiative to experiment with advanced frontend techniques.",
-    author: "Cole Baidoo",
-    role: "Senior Software Engineer | Cyber Security Specialist | Mentor",
-    avatar: "/cole.jpg",
+    quote: "Working with Sagar has been a pleasure. He's technically strong but also knows how to communicate complex ideas clearly. Whether it's jumping into a challenging bug or helping teammates understand a new concept, he always steps up. His work ethic and attention to detail set a high standard for the team.",
+    author: "Rakesh Joshi",
+    role: "Senior Frontend Engineer, Infosys",
+  },
+  {
+    quote: "Sagar consistently delivers high-quality work and takes genuine ownership of his projects. He's proactive about identifying issues before they become problems and always seeks ways to improve our processes. Beyond his technical skills, he's a great team player who makes everyone around him better.",
+    author: "Vineet Rajpoor",
+    role: "Senior Frontend Engineer, InStep Technologies",
   },
 ];
 
@@ -38,11 +41,6 @@ const Testimonial = () => {
               "{t.quote}"
             </blockquote>
             <div className="flex items-center gap-4">
-              <img
-                src={t.avatar}
-                alt={t.author}
-                className="w-12 h-12 rounded-full object-cover border border-border"
-              />
               <div>
                 <p className="font-medium text-foreground text-sm">{t.author}</p>
                 <p className="text-xs text-muted-foreground mt-0.5">{t.role}</p>
@@ -53,6 +51,7 @@ const Testimonial = () => {
           <div className="flex items-center justify-center gap-4 mt-8">
             <button
               onClick={prev}
+              aria-label="Previous testimonial"
               className="p-2 rounded-full border border-border text-muted-foreground hover:text-primary hover:border-primary transition-colors"
             >
               <ChevronLeft className="w-4 h-4" />
@@ -62,12 +61,14 @@ const Testimonial = () => {
                 <button
                   key={i}
                   onClick={() => setActive(i)}
+                  aria-label={`Go to testimonial ${i + 1}`}
                   className={`h-1.5 rounded-full transition-all duration-300 ${i === active ? "w-6 bg-primary" : "w-1.5 bg-border"}`}
                 />
               ))}
             </div>
             <button
               onClick={next}
+              aria-label="Next testimonial"
               className="p-2 rounded-full border border-border text-muted-foreground hover:text-primary hover:border-primary transition-colors"
             >
               <ChevronRight className="w-4 h-4" />

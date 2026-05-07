@@ -4,9 +4,9 @@ import { Mail, Phone, MapPin, Loader, Send, CheckCircle, AlertCircle } from "luc
 import emailjs from "@emailjs/browser";
 
 const contactInfo = [
-  { icon: Mail, label: "Email", value: "philipkateyk@gmail.com", href: "mailto:philipkateyk@gmail.com" },
-  { icon: Phone, label: "Phone", value: "+233 559 511 620", href: "tel:+233559511620" },
-  { icon: MapPin, label: "Location", value: "Accra, Ghana", href: "#" },
+  { icon: Mail, label: "Email", value: "sagarrbarthwal@gmail.com", href: "mailto:sagarrbarthwal@gmail.com" },
+  { icon: Phone, label: "Phone", value: "+91 9528553483", href: "tel:+919528553483" },
+  { icon: MapPin, label: "Location", value: "Pune", href: "#" },
 ];
 
 type EmailJSError = { status: number; text: string };
