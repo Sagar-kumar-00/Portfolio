@@ -9,7 +9,7 @@ const projects = [
     image: slateflix,
     tags: ["React.js", "Bootstrap", "HIPAA Compliance", "Google Maps API"],
     link: "https://www.thecareconnexion.com/",
-    github: "https://github.com/sagar-go",
+    github: "https://github.com/Sagar-kumar-00",
     showGithubOnHover: false,
   },
   {
@@ -18,7 +18,7 @@ const projects = [
     image: chef,
     tags: ["Next.js", "TypeScript", "EdTech", "Comparison Tool"],
     link: "https://uniinsiders.vercel.app/",
-    github: "https://github.com/sagar-go",
+    github: "https://github.com/Sagar-kumar-00",
     showGithubOnHover: false,
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     imageUnavailable: true,
     tags: ["React", "TypeScript", "WebSocket", "Redux", "3D Visualization","three.js"],
     link: "#",
-    github: "https://github.com/sagar-go",
+    github: "https://github.com/Sagar-kumar-00",
   },
 ];
 
@@ -45,7 +45,7 @@ const Projects = () => (
             </h2>
           </div>
           {/* <a
-            href="https://github.com/sagar-go?tab=repositories"
+            href="https://github.com/Sagar-kumar-00?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
@@ -111,7 +111,7 @@ const Projects = () => (
 
         <div className="mt-10 text-center md:hidden">
           <a
-            href="https://github.com/sagar-go?tab=repositories"
+            href="https://github.com/Sagar-kumar-00?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
