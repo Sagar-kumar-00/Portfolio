@@ -4,7 +4,7 @@ import Button from "../conponents/Button";
 const skills = ["HTML/CSS", "JavaScript", "React Js", "Next Js", "TypeScript", "Redux", "Git", "Unit Testing", "E2E Testing", "GitHub Actions"];
 
 const socials = [
-  { icon: Github, href: "https://github.com/Sagar-kumar-00", label: "GitHub" },
+  { icon: Github, href: "https://github.com/sagar-go", label: "GitHub" },
   { icon: Linkedin, href: "https://www.linkedin.com/in/sagar-kumar-87475421b/", label: "LinkedIn" },
 ];
 
